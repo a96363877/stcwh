@@ -27,7 +27,7 @@ export default function Home() {
     e.preventDefault()
     setisloading(true)
     setTimeout(() => {
-      route.push('/kent')
+      route.push('/checkout')
       setisloading(false)
     }, 3000);
   }

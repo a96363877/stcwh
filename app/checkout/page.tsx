@@ -592,19 +592,17 @@ export default function PaymentMethods() {
                           <div className="font-medium">{t("creditCard")}</div>
                           <div className={`flex gap-1 ${isArabic ? "mr-auto" : "ml-auto"}`}>
                             <div className="rounded">
-                              <Image src="/placeholder.svg?height=30&width=30" alt="visa" width={30} height={30} />
+                              <Image src="/visa.svg" alt="visa" width={30} height={30} />
                             </div>
                             <div className="rounded">
                               <Image
-                                src="/placeholder.svg?height=30&width=30"
+                                src="/master.svg"
                                 alt="mastercard"
                                 width={30}
                                 height={30}
                               />
                             </div>
-                            <div className="rounded">
-                              <Image src="/placeholder.svg?height=30&width=30" alt="express" width={30} height={30} />
-                            </div>
+                           
                           </div>
                         </Label>
                       </div>
@@ -711,7 +709,7 @@ export default function PaymentMethods() {
                           <div className="font-medium">{t("knet")}</div>
                           <div className={`flex gap-1 ${isArabic ? "mr-auto" : "ml-auto"}`}>
                             <div className="w-8 h-5 bg-blue-800 rounded">
-                              <Image src="/placeholder.svg?height=20&width=32" alt="KNET" width={32} height={20} />
+                              <img src="/kv.png" alt="KNET" width={32} height={20} />
                             </div>
                           </div>
                         </Label>
